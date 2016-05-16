@@ -1,5 +1,7 @@
 @media (max-width: 768px) {
-    body {padding-top: 60px;}
+    body {
+        padding-top: 60px;
+    }
     header {
         position: fixed;
         top: 0;
@@ -7,7 +9,9 @@
         right: 0;
         height: 50px;
     }
-    .logo img {height: 30px;}
+    .logo img {
+        height: 30px;
+    }
     .nav {
         position: absolute;
         top: 100%;
@@ -16,16 +20,20 @@
         z-index: 5;
         display: none;
     }
-    .nav li {float: none;}
+    .nav li {
+        float: none;
+    }
     .nav li a {
-        color : #666;
+        color: #666;
         border-top: 1px solid #eee;
         border-left: 3px solid transparent;
         background: #fff;
     }
-    .nav li:first-child a {border-top: none;}
+    .nav li:first-child a {
+        border-top: none;
+    }
     .nav li a:hover {
-        color : #333;
+        color: #333;
         border-left: 3px solid #515572;
         background: #f0f0f0;
     }
@@ -39,7 +47,9 @@
         position: relative;
         padding-top: 0;
     }
-    #search input {height: 30px;}
+    #search input {
+        height: 30px;
+    }
     #search input[type="text"] {
         width: 100%;
         padding-right: 35px;
@@ -56,9 +66,11 @@
 }
 
 @media (max-height: 320px) and (max-width: 768px) {
-	.nav {
-		left: 58px;
-		width: 200px;
-	}
-	.nav li a {padding: 5px 10px;}
+    .nav {
+        left: 58px;
+        width: 200px;
+    }
+    .nav li a {
+        padding: 5px 10px;
+    }
 }
